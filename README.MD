@@ -5,13 +5,13 @@ When top level interface are modified `go generate` is handy to rebuild mocks st
 
 **Feature documentation**
 
-Each feature should preferably has a `FEATURE.md` which
+Each feature should preferably have a `FEATURE.md` which
 documents its behaviors, expectations, concepts, key
 entities and entry points.
 
 Here is the list of features:
 
-- [weather](./weather/FEATURE.md)
+- [weather](./weather/FEATURE.MD)
 
 ## Installation
 
@@ -22,10 +22,10 @@ Here is the list of features:
 
 ## Starting App
 
-- Start the app with `./run-local-app.sh`:
+- Start the app with:
 
 ```shell
-make local-app
+./run-local-app.sh
 ```
 
 You should see something similiar:
